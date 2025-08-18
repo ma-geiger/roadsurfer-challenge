@@ -8,11 +8,18 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-.DS_Store
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
 dist
 dist-ssr
 coverage
 *.local
+.DS_Store
 
 /cypress/videos/
 /cypress/screenshots/
